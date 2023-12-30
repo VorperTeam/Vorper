@@ -33,5 +33,5 @@ The website is built using the following technologies:
 
 ## Attribution
 
-- [**Manrope Font**](https://github.com/sharanda/manrope)
+- [**IBM Plex Sans**](https://fonts.google.com/specimen/IBM+Plex+Sans)
 - [**Plus Jakarta Sans**](https://github.com/tokotype/PlusJakartaSans)
