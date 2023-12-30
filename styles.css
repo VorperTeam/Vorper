@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+#vorperlogo {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 2000;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: fixed;
+}
+
+a {
+    color: transparent;
+    background-image: linear-gradient(to right, #4357c7, #763bb9);
+    /* Apply the gradient to the text */
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    /* Keep the existing box-shadow and transitions */
+    box-shadow: inset 0 0 0 0 #16abb6;
+    transition: box-shadow .3s ease-in-out, color .3s ease-in-out;
+}
+
+a:hover {
+    color: #fff;
+    /* Keep the color change on hover */
+    box-shadow: inset 500px 0 0 0 #0e82ac;
+}
+
+
+hr.hr1 {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.hidden {
+    display: none;
+}
+
+#maintext {
+    font-size: 90px;
+    text-align: center;
+    color: rgb(61, 119, 233);
+    margin-top: 300px;
+}
+
+#subtext {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(167, 208, 255);
+}
+
+#vorper1 {
+    color: transparent;
+    background-image: linear-gradient(to right, #6aa6ff, #a95fff);
+    background-clip: text;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#development1 {
+    color: rgb(124, 230, 186);
+}
+
+body {
+    background-color: rgb(14, 15, 24);
+}
+
+header {
+    padding: 10px;
+    margin: 0;
+    background: rgb(7, 11, 44);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0; 
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff00;
+}
+
+*::-webkit-scrollbar {
+    width: 1px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff00;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 10px;
+    border: 1px solid #ffffff00;
+}
+
+body {
+      zoom: 110%;
+}
+
