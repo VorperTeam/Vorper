@@ -30,3 +30,8 @@ The website is built using the following technologies:
 
 - **Email**: Contact@Vorper.com
 - **Twitter**: [@VorperTeam](https://twitter.com/VorperTeam)
+
+## Attribution
+
+- [**Manrope Font**](https://github.com/sharanda/manrope)
+- [**Plus Jakarta Sans**](https://github.com/tokotype/PlusJakartaSans)
