@@ -15,25 +15,21 @@
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
-    display: fixed;
 }
 
 a {
     color: transparent;
-    background-image: linear-gradient(to right, #4357c7, #763bb9);
-    /* Apply the gradient to the text */
+    background-image: linear-gradient(to right, #6ca7ff, #8f46e2);
     -webkit-background-clip: text;
     background-clip: text;
     text-decoration: none;
     font-family: 'IBM Plex Sans', sans-serif;
-    /* Keep the existing box-shadow and transitions */
     box-shadow: inset 0 0 0 0 #16abb6;
-    transition: box-shadow .3s ease-in-out, color .3s ease-in-out;
+    transition: .3s ease-in-out, color .3s ease-in-out;
 }
 
 a:hover {
     color: #fff;
-    /* Keep the color change on hover */
     box-shadow: inset 500px 0 0 0 #0e82ac;
 }
 
@@ -53,10 +49,10 @@ hr.hr1 {
 }
 
 #maintext {
-    font-size: 90px;
+    font-size: 110px;
     text-align: center;
     color: rgb(61, 119, 233);
-    margin-top: 300px;
+    margin-top: 350px;
 }
 
 #subtext {
@@ -84,7 +80,7 @@ body {
 header {
     padding: 10px;
     margin: 0;
-    background: rgb(7, 11, 44);
+    background: rgb(16, 11, 61);
     position: fixed;
     width: 100%;
     top: 0;
@@ -109,8 +105,3 @@ header {
     border-radius: 10px;
     border: 1px solid #ffffff00;
 }
-
-body {
-      zoom: 125%;
-}
-
