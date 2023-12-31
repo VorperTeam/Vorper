@@ -62,11 +62,13 @@ hr.hr1 {
 }
 
 #vorper1 {
-    color: transparent;
-    background-image: linear-gradient(to right, #6aa6ff, #a95fff);
     background-clip: text;
     text-decoration: none;
     font-family: 'IBM Plex Sans', sans-serif;
+    background: -webkit-linear-gradient(#6a99ff, #722eaa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 #development1 {
