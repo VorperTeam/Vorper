@@ -81,11 +81,13 @@ body {
 header {
     padding: 10px;
     margin: 0;
-    background: rgb(16, 11, 61);
+    background: rgba(16, 11, 61, 0.8);
     position: fixed;
     width: 100%;
     top: 0;
-    left: 0; 
+    left: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
 }
 
 * {
