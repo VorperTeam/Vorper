@@ -1,38 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+/* Global Presets */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700&display=swap');
 
+/* Applying global styles */
 * {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: bolder;
+    font-weight: 700;
     color: white;
+    scrollbar-width: 1px;
+    scrollbar-color: #8f54a0 #ffffff00;
 }
+/* End Global Presets */
 
-#vorperlogo {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 2000;
-    font-size: 150px;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-
-a {
-    color: transparent;
-    background-image: linear-gradient(to right, #6ca7ff, #8f46e2);
-    -webkit-background-clip: text;
-    background-clip: text;
-    text-decoration: none;
-    font-family: 'IBM Plex Sans', sans-serif;
-    box-shadow: inset 0 0 0 0 #16abb6;
-    transition: .3s ease-in-out, color .3s ease-in-out;
-}
-
-a:hover {
-    color: #fff;
-    box-shadow: inset 500px 0 0 0 #0e82ac;
-}
-
-
+/* Style for Invisible HR */
 hr.hr1 {
     display: block;
     margin-top: 1em;
@@ -42,92 +21,128 @@ hr.hr1 {
     border-style: inset;
     border-width: 1px;
 }
+/* End Invisible HR style */
 
+/* Class for making elements invisible */
 .hidden {
     display: none;
 }
+/* End Invisible class */
 
-#maintext {
+/* Styling for Main Text */
+.maintext {
     font-size: 110px;
     text-align: center;
     color: rgb(61, 119, 233);
     margin-top: 350px;
 }
+/* End Main Text styling */
 
-#subtext {
-    font-size: 50px;
-    text-align: center;
-    color: rgb(167, 208, 255);
-}
-
-#vorper1 {
-    background-clip: text;
-    text-decoration: none;
-    font-family: 'IBM Plex Sans', sans-serif;
-    background: -webkit-linear-gradient(#6a99ff, #722eaa);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-#development1 {
-    color: rgb(124, 230, 186);
-}
-
-body {
-    background-color: rgb(14, 15, 24);
-}
-
-header {
-    padding: 10px;
-    margin: 0;
-    background: rgb(16, 11, 61);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0; 
-}
-
-* {
-    scrollbar-width: auto;
-    scrollbar-color: #8f54a0 #ffffff00;
-}
-
+/* Styling for Scrollbar */
 *::-webkit-scrollbar {
     width: 1px;
 }
-
 *::-webkit-scrollbar-track {
     background: #ffffff00;
 }
-
 *::-webkit-scrollbar-thumb {
     background-color: #8f54a0;
-    border-radius: 10px;
+    border-radius: 1px;
     border: 1px solid #ffffff00;
 }
+/* End Scrollbar styling */
 
-@media (max-width: 600px) {
-    #vorperlogo {
-        font-size: 100px;
-        margin-left: -25px;
-    }
-
-    #maintext {
-        font-size: 65px;
-        margin-top: 200px;
-    }
-
-    #vorper1 {
-        font-size: 65px;
-    }
-
-    #development1 {
-        font-size: 53px;
-    }
-
-    #subtext {
-        margin-top: 260px;
-    }
-
+/* Body styles */
+body {
+    background-color: rgb(14, 15, 24);
 }
+/* End Body styles */
+
+/* Header styles */
+header {
+    padding: 10px;
+    margin: 0;
+    background: rgba(16, 11, 61, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px); 
+}
+/* End Header styles */
+
+/* Styling for Vorper Link */
+#vorperlink {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+#vorperlogo {
+    transition: all 0.3s ease;
+    width: 250px;
+    height: 250px;
+    margin-left: 70px;
+}
+#vorperlink:hover #vorperlogo {
+    opacity: 0.5;
+}  
+/* End Vorper Link styling */
+
+/* Styling for Header Link */
+.headerlink {
+    position: relative;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgb(171, 231, 255);
+}
+.headerlink::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #cbfafc;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+.headerlink:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+/* End Header Link styling */
+
+/* About Link Text */
+#about {
+    text-align: center;
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 1250px;
+    font-size: 100px;
+}
+/* End About Link Text */
+
+/* Contact Link Text */
+#contact {
+    text-align: center;
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 800px;
+    font-size: 100px;
+}
+/* End Contact Link Text */
+
+/* Info Link Text */
+#info {
+    text-align: center;
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 470px;
+    font-size: 100px;
+}
+/* End Info Link Text */
