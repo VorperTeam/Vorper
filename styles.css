@@ -1,38 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700&display=swap');
 
+/* Global Styles */
 * {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-weight: bolder;
-    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif; /* Default font family */
+    font-weight: bolder; /* Default font weight */
+    color: white; /* Default text color */
 }
 
+/* Styling for the logo */
 #vorperlogo {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 2000;
+    font-family: 'IBM Plex Sans', sans-serif; /* Different font family for logo */
+    font-weight: 2000; /* Custom font weight */
     font-size: 150px;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 10px;
 }
 
+/* Styling for links */
 a {
-    color: transparent;
-    background-image: linear-gradient(to right, #6ca7ff, #8f46e2);
+    color: transparent; /* Transparent text color */
+    background-image: linear-gradient(to right, #6ca7ff, #8f46e2); /* Gradient text color */
     -webkit-background-clip: text;
     background-clip: text;
     text-decoration: none;
     font-family: 'IBM Plex Sans', sans-serif;
-    box-shadow: inset 0 0 0 0 #16abb6;
-    transition: .3s ease-in-out, color .3s ease-in-out;
+    box-shadow: inset 0 0 0 0 #16abb6; /* Shadow effect */
+    transition: .3s ease-in-out, color .3s ease-in-out; /* Transition effects */
 }
 
+/* Hover effect for links */
 a:hover {
-    color: #fff;
-    box-shadow: inset 500px 0 0 0 #0e82ac;
+    color: #fff; /* Text color on hover */
+    box-shadow: inset 500px 0 0 0 #0e82ac; /* Shadow effect on hover */
 }
 
-
+/* Styling for horizontal rule */
 hr.hr1 {
     display: block;
     margin-top: 1em;
@@ -43,10 +47,12 @@ hr.hr1 {
     border-width: 1px;
 }
 
+/* Class for hiding elements */
 .hidden {
     display: none;
 }
 
+/* Styling for main text */
 #maintext {
     font-size: 110px;
     text-align: center;
@@ -54,12 +60,14 @@ hr.hr1 {
     margin-top: 350px;
 }
 
+/* Styling for subtext */
 #subtext {
     font-size: 50px;
     text-align: center;
     color: rgb(167, 208, 255);
 }
 
+/* Styling for specific elements */
 #vorper1 {
     background-clip: text;
     text-decoration: none;
@@ -70,14 +78,17 @@ hr.hr1 {
     background-clip: text;
 }
 
+/* Styling for development text */
 #development1 {
     color: rgb(124, 230, 186);
 }
 
+/* Body styles */
 body {
     background-color: rgb(14, 15, 24);
 }
 
+/* Header styles */
 header {
     padding: 10px;
     margin: 0;
@@ -86,10 +97,11 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); /* Background blur effect */
     -webkit-backdrop-filter: blur(10px); 
 }
 
+/* Scrollbar styles */
 * {
     scrollbar-width: auto;
     scrollbar-color: #8f54a0 #ffffff00;
@@ -109,6 +121,7 @@ header {
     border: 1px solid #ffffff00;
 }
 
+/* Media query for smaller screens */
 @media (max-width: 600px) {
     #vorperlogo {
         font-size: 100px;
@@ -131,5 +144,4 @@ header {
     #subtext {
         margin-top: 260px;
     }
-
 }
