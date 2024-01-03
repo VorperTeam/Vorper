@@ -33,5 +33,6 @@ The website is built using the following technologies:
 
 ## Attribution
 
-- [**IBM Plex Sans**](https://fonts.google.com/specimen/IBM+Plex+Sans)
+- [**IBM Plex Sans**](https://www.ibm.com/plex/)
 - [**Plus Jakarta Sans**](https://github.com/tokotype/PlusJakartaSans)
+- [**Google Material Symbols and Icons**](https://github.com/google/material-design-icons)
