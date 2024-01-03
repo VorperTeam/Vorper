@@ -1,13 +1,17 @@
-The intellectual property contained within this work is protected under the terms of the Attribution-ShareAlike 4.0 International license, except for specific font software included in this repository.
+The intellectual property within this work is protected under the terms of the Attribution-ShareAlike 4.0 International license, except for specific font software and Google Material Icons included in this repository.
 
-The font software in this repository is licensed under the SIL Open Font License (OFL) and/or SIL Open Font License (OFL) Version 1.1, as detailed below:
+### Font Software Licenses:
 
-1. Font Software licensed under the SIL Open Font License (OFL) Version 1.1:
-   - [Plus Jakarta Sans]: This font software is licensed under the SIL Open Font License (OFL) Version 1.1. You are free to use, study, modify, and redistribute this font software, including any derivative works, subject to the conditions outlined in the SIL Open Font License, Version 1.1. For detailed information regarding the SIL Open Font License (OFL) Version 1.1 and its terms. More info here http://scripts.sil.org/OFL
+1. **[Plus Jakarta Sans]**:
+   - This font software is licensed under the SIL Open Font License (OFL) Version 1.1. You are free to use, study, modify, and redistribute this font software, including any derivative works, subject to the conditions outlined in the [SIL Open Font License Version 1.1](http://scripts.sil.org/OFL).
 
-2. Font Software licensed under the SIL Open Font License (OFL):
-   - [IBM Plex Sans]: This font software is licensed under the SIL Open Font License (OFL). You are free to use, study, modify, and redistribute this font software, including any derivative works, subject to the conditions outlined in the SIL Open Font License. For detailed information regarding the SIL Open Font License (OFL) and its terms. More info here http://scripts.sil.org/OFL
+2. **[IBM Plex Sans]**:
+   - This font software is licensed under the SIL Open Font License (OFL). You are free to use, study, modify, and redistribute this font software, including any derivative works, subject to the conditions outlined in the [SIL Open Font License](http://scripts.sil.org/OFL).
 
-Please note that the font software has specific licensing arrangements and may fall under different versions of the SIL Open Font License (OFL). These licenses are not covered by the Attribution-ShareAlike 4.0 International license that applies to other content in this repository.
+### Google Material Icons License:
 
-For information on the Attribution-ShareAlike 4.0 International license that applies to the remaining content in this repository, please visit the following link for a detailed breakdown: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+Specific Google Material Icons included in this repository are provided under the Apache License 2.0. You are free to use, copy, modify, distribute, and sublicense the icons, subject to the conditions outlined in the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+Please note that the font software and Google Material Icons have specific licensing arrangements (SIL Open Font License for fonts and Apache License 2.0 for icons), distinct from the Attribution-ShareAlike 4.0 International license that applies to other content in this repository.
+
+For detailed information on the Attribution-ShareAlike 4.0 International license that applies to the remaining content in this repository, please visit the following link for a detailed breakdown: [Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
