@@ -3,16 +3,18 @@
 
 /* Global Styles */
 * {
-    font-family: 'Plus Jakarta Sans', sans-serif; /* Default font family */
-    font-weight: 700; /* Default font weight */
-    color: white; /* Default text color */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    scrollbar-width: auto;
+    scrollbar-color: #a082d8 #ffffff00;
 }
 
 /* Styling for the logo text */
 #vorperlogo {
-    font-family: 'IBM Plex Sans', sans-serif; /* Different font family for logo */
-    font-weight: 700; /* Custom font weight */
-    font-size: 100px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
     text-align: left;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -20,21 +22,21 @@
 }
 
 /* Styling for links */
-a {
-    color: transparent; /* Transparent text color */
-    background-image: linear-gradient(to right, #6ca7ff, #8f46e2); /* Gradient text color */
+#hlv {
+    color: transparent;
+    background-image: linear-gradient(to right, #6ca7ff, #8f46e2);
     -webkit-background-clip: text;
     background-clip: text;
     text-decoration: none;
     font-family: 'IBM Plex Sans', sans-serif;
-    box-shadow: inset 0 0 0 0 #16abb6; /* Shadow effect */
-    transition: .3s ease-in-out, color .3s ease-in-out; /* Transition effects */
+    box-shadow: inset 0 0 0 0 #16abb6;
+    transition: .3s ease-in-out, color .3s ease-in-out;
 }
 
 /* Hover effect for links */
-a:hover {
-    color: #fff; /* Text color on hover */
-    box-shadow: inset 500px 0 0 0 #0e82ac; /* Shadow effect on hover */
+#hlv:hover {
+    color: #fff;
+    box-shadow: inset 270px 0 0 0 #0e82ac;
 }
 
 /* Styling for horizontal rule */
@@ -57,24 +59,12 @@ hr.hr1 {
 #maintext {
     font-size: 110px;
     text-align: center;
-    color: rgb(61, 119, 233);
+    color: rgb(98, 151, 255);
     margin-top: 350px;
 }
 
-/* Styling for specific elements */
-#vorper1 {
-    background-clip: text;
-    text-decoration: none;
-    font-family: 'IBM Plex Sans', sans-serif;
-    background: linear-gradient(to right, #6ca7ff, #8f46e2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-/* Styling for development text */
 #development1 {
-    color: rgb(124, 230, 186);
+    color: rgb(115, 185, 34);
 }
 
 /* Body styles */
@@ -91,18 +81,49 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    backdrop-filter: blur(10px); /* Background blur effect */
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px); 
 }
 
-/* Scrollbar styles */
-* {
-    scrollbar-width: auto;
-    scrollbar-color: #8f54a0 #ffffff00;
+/* Additional header link styles */
+.headerlink {
+    font-weight: 400;
+    color: #d5c5ff;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
 }
 
+/* Underline animation */
+.headerlink::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 3px;
+    background-color: #b59aff;
+    bottom: 0;
+    left: 0;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for header links */
+.headerlink:hover::before {
+    transform-origin: right;
+    transform: scaleX(1);
+}
+
+.headerlink:hover {
+    color: #c29dff;
+    font-weight: 700;
+    transition: none;
+}
+
+/* Scrollbar styles */
 *::-webkit-scrollbar {
-    width: 1px;
+    width: 5px;
 }
 
 *::-webkit-scrollbar-track {
@@ -110,9 +131,55 @@ header {
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #8f54a0;
-    border-radius: 10px;
-    border: 1px solid #ffffff00;
+    background-color: #9a7cd1;
+    border-radius: 5px;
+    border: 5px solid #ffffff00;
+}
+
+/* Additional styles */
+#projects {
+    font-size: 40px;
+    margin-left: 400px;
+    margin-top: -85px;
+    position: fixed;
+}
+
+#team {
+    font-size: 40px;
+    margin-left: 650px;
+    margin-top: -85px;
+    position: fixed;
+}
+
+#joinus {
+    font-size: 40px;
+    margin-left: 800px;
+    margin-top: -85px;
+    position: fixed;
+}
+
+#abox {
+    margin-left: 1700px;
+    margin-top: -100px;
+    font-size: 80px;
+    position: fixed;
+    transition: color 0.3s ease-in-out;
+    color: #d5c5ff;
+}
+
+#abox:hover {
+    color: rgb(213, 151, 255);
+}
+
+/* Selection styles */
+::-moz-selection {
+    color:rgb(255, 255, 255);
+    background: rgb(160, 98, 211);
+}
+
+::selection {
+    color:rgb(255, 255, 255);
+    background: rgb(160, 98, 211);
 }
 
 /* Media query for smaller screens */
@@ -120,6 +187,7 @@ header {
     #vorperlogo {
         font-size: 100px;
         margin-left: -25px;
+        text-align: center;
     }
 
     #maintext {
@@ -127,13 +195,10 @@ header {
         margin-top: 200px;
     }
 
-    #vorper1 {
-        font-size: 65px;
-    }
-
-    #development1 {
-        font-size: 53px;
+    /* Hiding certain elements for smaller screens */
+    #projects, #team, #joinus, #abox {
+        display: none;
     }
 }
 
-/* Need to design the header anchor links and clean up some of the code aswell as redesign the <main> content */
+/* Need to redesign main text things and also fix the header just looking ugly */
