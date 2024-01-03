@@ -1,1 +1,0 @@
-LICENSE.LibNameA.md
