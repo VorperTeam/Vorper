@@ -1,4 +1,4 @@
-# Vorper Open Source Website
+# Vorper Website
 
 ![Vorper Logo](https://cdn.discordapp.com/attachments/1180390307007823902/1191300262191706132/00vfug0.png?ex=65a4efd3&is=65927ad3&hm=278c18918dc6bb33ae2f1e93b5f0c232c0c452ce623319567d72b734feb710f1&)
 
