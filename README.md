@@ -50,4 +50,4 @@ Stay connected with us:
 
 We are not affiliated with Google (Company), International Business Machines Corporation (Company), tokyotype (Person), or Creative Commons (Non-Profit). It is important to clarify that "Google" is a trademark owned by Google (Company), "IBM" is a trademark owned by International Business Machines Corporation (Company), and "Creative Commons" is a trademark owned by Creative Commons (Non-Profit).
 
-# Website made with 💙 by [Vorper](https://www.vorper.com)
+# <h1 align="center">Website made with 💙 by [Vorper](https://www.vorper.com)</h1>
