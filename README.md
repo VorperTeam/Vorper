@@ -32,7 +32,7 @@ The Vorper website is licensed under [Creative Commons Attribution-ShareAlike 4.
 
 ## Attribution
 
-We utilize the following resources in our project:
+We use the following resources in this website:
 
 - [**IBM Plex Sans**](https://www.ibm.com/plex/) Open Font License (OFL)
 - [**Plus Jakarta Sans**](https://github.com/tokotype/PlusJakartaSans) Open Font License (OFL)
