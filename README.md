@@ -28,13 +28,14 @@ For more detailed information on how you can help develop the website you should
 
 The Vorper website is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0)](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
 
-*Note: Please be aware that the resources featured on this website, specifically Plus Jakarta Sans, IBM Plex Sans and Google Material Design Icons, are governed by licenses distinct from the website's own license. We strongly recommend reviewing the individual license terms for these resources separately.*
+*Note: Please be aware that the resources featured on this website, specifically Plus Jakarta Sans, IBM Plex Sans, Manrope, and Google Material Design Icons, are governed by licenses distinct from the website's own license. We strongly recommend reviewing the individual license terms for these resources separately.*
 
 ## Attribution
 
 We use the following resources in this website:
 
 - [**IBM Plex Sans**](https://www.ibm.com/plex/) Open Font License (OFL)
+- [**Manrope**](https://github.com/sharanda/manrope) Open Font License (OFL)
 - [**Plus Jakarta Sans**](https://github.com/tokotype/PlusJakartaSans) Open Font License (OFL)
 - [**Google Material Symbols and Icons**](https://github.com/google/material-design-icons) Apache License Version 2 (ALv2)
 
@@ -48,6 +49,6 @@ Stay connected with us:
 
 ## Disclaimer
 
-We are not affiliated with Google (Company), International Business Machines Corporation (Company), tokyotype (Person), or Creative Commons (Non-Profit). It is important to clarify that "Google" is a trademark owned by Google (Company), "IBM" is a trademark owned by International Business Machines Corporation (Company), and "Creative Commons" is a trademark owned by Creative Commons (Non-Profit).
+We are not affiliated with Google (Company), International Business Machines Corporation (Company), tokyotype (Person), sharanda (Person), or Creative Commons (Non-Profit). It is important to clarify that "Google" is a trademark owned by Google (Company), "IBM" is a trademark owned by International Business Machines Corporation (Company), and "Creative Commons" is a trademark owned by Creative Commons (Non-Profit).
 
 # <h1 align="center">Website made with 💙 by [Vorper](https://www.vorper.com)</h1>
