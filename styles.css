@@ -1,205 +1,161 @@
-/* Importing Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@400;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-/* Global Styles */
-* {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 700;
-  color: white;
-  scrollbar-width: auto;
-  scrollbar-color: #a082d8 #ffffff00;
-}
-
-/* Styling for the logo text */
-#vorperlogo {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: 700;
-  font-size: 80px;
-  text-align: left;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  margin-left: 120px;
-}
-
-/* Styling for links */
-#hlv {
-  color: transparent;
-  background-image: linear-gradient(to right, #6ca7ff, #8f46e2);
-  -webkit-background-clip: text;
-  background-clip: text;
-  text-decoration: none;
-  font-family: "IBM Plex Sans", sans-serif;
-  box-shadow: inset 0 0 0 0 #16abb6;
-  transition: 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-/* Hover effect for links */
-#hlv:hover {
-  color: #fff;
-  box-shadow: inset 270px 0 0 0 #0e82ac;
-}
-
-/* Styling for horizontal rule */
-hr.hr1 {
-  display: block;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-}
-
-/* Class for hiding elements */
-.hidden {
-  display: none;
-}
-
-/* Styling for main text */
-#maintext {
-  font-size: 110px;
-  text-align: center;
-  color: rgb(98, 151, 255);
-  margin-top: 350px;
-}
-
-#development1 {
-  color: rgb(115, 185, 34);
-}
-
-/* Body styles */
 body {
-  background-color: rgb(14, 15, 24);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 800;
+  background-color: rgb(3, 7, 18);
+  color: white;
 }
 
-/* Header styles */
-header {
-  padding: 10px;
-  margin: 0;
-  background: rgba(16, 11, 61, 0.8);
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+#logo {
+  padding: 30px;
+  width: 330px;
 }
 
-/* Additional header link styles */
-.headerlink {
-  font-weight: 400;
-  color: #d5c5ff;
-  position: relative;
+a {
+  color: #ffffff;
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
 }
 
-/* Underline animation */
-.headerlink::before {
-  content: "";
+a:hover {
+  opacity: 70%;
+}
+
+#navigation {
+  width: 500px;
+  height: 65px;
+  background-color: rgba(71, 65, 61, 0.529);
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 60px;
   position: absolute;
-  width: 100%;
-  height: 4px;
-  border-radius: 3px;
-  background-color: #b59aff;
-  bottom: 0;
-  left: 0;
-  transform-origin: left;
-  transform: scaleX(0);
-  transition: transform 0.2s ease-in-out;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-/* Hover effect for header links */
-.headerlink:hover::before {
+.navigation-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  display: inline;
+  font-size: 37px;
+  padding: 24px;
+  opacity: 0.6;
+  position: relative;
+  top: 7px;
+}
+
+.navigation-text.current {
+  font-weight: 800;
+  opacity: 1;
+}
+
+.navigation-text:hover {
+  opacity: 0.8;
+}
+
+.navigation-text::before {
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  background-color: rgb(176, 193, 253);
+  bottom: 20px;
+  left: 17px;
+  content: "";
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
   transform-origin: right;
+}
+
+.navigation-text:hover::before {
+  transform-origin: left;
   transform: scaleX(1);
 }
 
-.headerlink:hover {
-  color: #c29dff;
-  font-weight: 700;
-  transition: none;
+#light-mode,
+#language {
+  position: absolute;
+  color: rgb(108, 113, 202);
+  top: 0;
+  right: 0;
+  padding-top: 40px;
 }
 
-/* Scrollbar styles */
-*::-webkit-scrollbar {
-  width: 5px;
+#light-mode {
+  font-size: 100px;
+  padding-right: 180px;
 }
 
-*::-webkit-scrollbar-track {
-  background: #ffffff00;
+#language {
+  font-size: 103px;
+  padding-right: 40px;
 }
 
-*::-webkit-scrollbar-thumb {
-  background-color: #9a7cd1;
-  border-radius: 5px;
-  border: 5px solid #ffffff00;
+#information {
+  width: 1400px;
+  height: 550px;
+  background-color: rgb(40, 40, 49);
+  border-radius: 70px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-/* Additional styles */
-#projects {
-  font-size: 40px;
-  margin-left: 400px;
-  margin-top: -85px;
+#introduction {
+  text-align: center;
+  font-size: 130px;
+  color: rgb(149, 159, 255);
+  margin-top: 30px;
+}
+
+#vorper-introduction {
+  color: rgb(157, 128, 236);
+  text-align: center;
+}
+
+#information-vorper {
+  text-align: center;
+  color: rgb(138, 148, 244);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 70px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: -20px;
+}
+
+#open-source-software {
+  color: rgb(58, 205, 205);
+}
+
+#source-code {
   position: fixed;
+  bottom: 10px;
+  left: 10px;
+  color: rgb(175, 184, 255);
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-#team {
-  font-size: 40px;
-  margin-left: 650px;
-  margin-top: -85px;
-  position: fixed;
+#mobile-message {
+  display: none; 
 }
 
-#joinus {
-  font-size: 40px;
-  margin-left: 800px;
-  margin-top: -85px;
-  position: fixed;
-}
-
-#abox {
-  margin-left: 1700px;
-  margin-top: -100px;
-  font-size: 80px;
-  position: fixed;
-  transition: color 0.3s ease-in-out;
-  color: #d5c5ff;
-}
-
-#abox:hover {
-  color: rgb(213, 151, 255);
-}
-
-/* Selection styles */
-::-moz-selection {
-  color: rgb(255, 255, 255);
-  background: rgb(160, 98, 211);
-}
-
-::selection {
-  color: rgb(255, 255, 255);
-  background: rgb(160, 98, 211);
-}
-
-/* Media query for smaller screens */
-@media (max-width: 600px) {
-  #vorperlogo {
-    font-size: 100px;
-    margin-left: -25px;
-    text-align: center;
-  }
-
-  #maintext {
-    font-size: 65px;
-    margin-top: 200px;
-  }
-
-  /* Hiding certain elements for smaller screens */
-  #projects,
-  #team,
-  #joinus,
-  #abox {
+@media screen and (max-width: 600px) { 
+  main { 
     display: none;
+  }
+
+  header {
+    display: none;
+  }
+
+  #mobile-message { 
+    display: block;
+    text-align: center;
+    font-family: 'IBM Plex Sans', 'sans-serif';
+    font-size: 20px;
   }
 }
