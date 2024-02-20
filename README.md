@@ -1,7 +1,7 @@
 # <h1 align="center">Vorper Website</h1>
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1180390307007823902/1191300262191706132/00vfug0.png?ex=65a4efd3&is=65927ad3&hm=278c18918dc6bb33ae2f1e93b5f0c232c0c452ce623319567d72b734feb710f1&" alt="Vorper Logo">
+  <img src="https://cdn.discordapp.com/attachments/1204387508599783444/1209421715004989480/uTy2UqP.png?ex=65e6dcbe&is=65d467be&hm=17f123957f2c38535596fdd99922d571217aafc25a44fb250f4125a81847ca04&" alt="Vorper Logo">
 </p>
 
 ## Overview
