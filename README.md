@@ -45,7 +45,7 @@ Stay connected with us:
 
 - **Email**: [Contact@Vorper.com](mailto:Contact@Vorper.com)
 - **Twitter**: [@VorperTeam](https://twitter.com/VorperTeam)
-- **GitHub**: [Vorper](https://github.com/VorperTeam/)
+- **GitHub**: [VorperTeam](https://github.com/VorperTeam/)
 
 ## Disclaimer
 
