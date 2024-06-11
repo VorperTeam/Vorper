@@ -1,6 +1,6 @@
 # <h1 align="center">Vorper Website</h1>
 
-![VorperWide](https://github.com/VorperTeam/Vorper/assets/120841550/1f2d9f32-8e0e-4be0-9d7c-6174ab00f3ba)
+![Vorper Logo)](https://github.com/VorperTeam/Vorper/assets/120841550/49b81268-38b2-458b-adbc-7bab53f24168)
 
 ## Overview
 
