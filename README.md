@@ -4,7 +4,7 @@
 
 ## Overview
 
-Welcome to the Vorper Open Source Website repository! This website is the headquarters of our digital presence, This website shows our involvement in the open-source community aswell as the members on our team and more.
+Welcome to the Vorper Open Source Website repository! This website is the headquarters of our digital presence, This website shows our involvement in the open-source community as well as the members on our team and more.
 
 ## Features
 
