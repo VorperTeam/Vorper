@@ -1,8 +1,6 @@
 # <h1 align="center">Vorper Website</h1>
 
-<p align="center">
   ![vorper (3)](https://github.com/VorperTeam/Vorper/assets/120841550/21484fda-332e-4d39-a1d5-ad5c8a98149e)
-</p>
 
 ## Overview
 
