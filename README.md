@@ -1,7 +1,7 @@
 # <h1 align="center">Vorper Website</h1>
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1204387508599783444/1209421715004989480/uTy2UqP.png?ex=65e6dcbe&is=65d467be&hm=17f123957f2c38535596fdd99922d571217aafc25a44fb250f4125a81847ca04&" alt="Vorper Logo">
+  ![vorper (3)](https://github.com/VorperTeam/Vorper/assets/120841550/21484fda-332e-4d39-a1d5-ad5c8a98149e)
 </p>
 
 ## Overview
