@@ -1,6 +1,6 @@
 # <h1 align="center">Vorper Website</h1>
 
-![dfgdgfUntitled](https://github.com/VorperTeam/Vorper/assets/120841550/1f2d9f32-8e0e-4be0-9d7c-6174ab00f3ba)
+![VorperWide](https://github.com/VorperTeam/Vorper/assets/120841550/1f2d9f32-8e0e-4be0-9d7c-6174ab00f3ba)
 
 ## Overview
 
