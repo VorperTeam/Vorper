@@ -22,7 +22,7 @@ We welcome contributions! To contribute, you can:
 
 ## License
 
-The Vorper website is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0)](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
+The Vorper website is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0)](LICENSE.md). Feel free to use, modify, and distribute the code as per the terms of the license.
 
 *Note: Please be aware that the resources featured on this website, specifically Plus Jakarta Sans, IBM Plex Sans, and Google Material Design Icons, are governed by licenses distinct from the website's own license. We strongly recommend reviewing the individual license terms for these resources separately.*
 
